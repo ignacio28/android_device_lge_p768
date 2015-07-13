@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ownrom.mk
+    $(LOCAL_DIR)/bliss.mk
