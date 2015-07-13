@@ -24,12 +24,12 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from u2-common device
-$(call inherit-product, device/lge/p760/device.mk)
+$(call inherit-product, device/lge/p768/device.mk)
 # Inherit from u2-vendor device
-$(call inherit-product, vendor/lge/u2/p760-vendor-blobs.mk)
+$(call inherit-product, vendor/lge/u2/p768-vendor-blobs.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_p760
-PRODUCT_DEVICE := p760
+PRODUCT_NAME := full_p768
+PRODUCT_DEVICE := p768
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_MODEL := Optimus L9
