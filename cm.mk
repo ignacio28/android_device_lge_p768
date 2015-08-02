@@ -7,7 +7,7 @@ $(call inherit-product, device/lge/p768/device.mk)
 # Inherit from u2-vendor device
 $(call inherit-product, vendor/lge/u2/p768-vendor-blobs.mk)
 
-PRODUCT_NAME := bliss_p768
+PRODUCT_NAME := cm_p768
 PRODUCT_BRAND := lg
 PRODUCT_DEVICE := p768
 PRODUCT_MODEL := LG-P768
@@ -18,7 +18,7 @@ PRODUCT_SFX := intl
 # Release name and versioning
 PRODUCT_RELEASE_NAME := p768
 PRODUCT_VERSION_DEVICE_SPECIFIC := 
--include vendor/bliss/config/common_versions.mk
+-include vendor/cm/config/common_versions.mk
 
 UTC_DATE := $(shell date +%s)
 
