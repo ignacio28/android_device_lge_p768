@@ -1,1 +1,1 @@
-add_lunch_combo bliss_p768-userdebug
+add_lunch_combo cm_p768-userdebug
